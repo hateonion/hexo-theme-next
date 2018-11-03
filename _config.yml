@@ -823,7 +823,7 @@ lazyload: false
 
 # Progress bar in the top during page loading.
 # Dependencies: https://github.com/theme-next/theme-next-pace
-pace: true
+pace: false
 # Themes list:
 #pace-theme-big-counter
 #pace-theme-bounce
@@ -913,7 +913,7 @@ vendors:
   # Internal version: 1.2.1
   # See: http://VelocityJS.org
   # Example:
-  velocity: https://cdn.jsdelivr.net/npm/velocity-animate@1.2.1/velocity.min.js
+  velocity: //cdn.jsdelivr.net/npm/velocity-animate@1.2.1/velocity.min.js
   # velocity: https://cdnjs.cloudflare.com/ajax/libs/velocity/1.2.1/velocity.min.js
   # velocity:
 
@@ -948,12 +948,12 @@ vendors:
   # Internal version: 1.0.2
   # See: https://github.com/HubSpot/pace
   # Example:
-  pace: //cdn.jsdelivr.net/npm/pace-js@1.0.2/pace.min.js
+  # pace: //cdn.jsdelivr.net/npm/pace-js@1.0.2/pace.min.js
   # pace: //cdnjs.cloudflare.com/ajax/libs/pace/1.0.2/pace.min.js
-  pace_css: //cdn.jsdelivr.net/npm/pace-js@1.0.2/themes/blue/pace-theme-minimal.css
+  # pace_css: //cdn.jsdelivr.net/npm/pace-js@1.0.2/themes/blue/pace-theme-minimal.css
   # pace_css: //cdnjs.cloudflare.com/ajax/libs/pace/1.0.2/themes/blue/pace-theme-minimal.min.css
-  # pace:
-  # pace_css:
+  pace:
+  pace_css:
 
   # Internal version: 1.0.0
   # See: https://github.com/theme-next/theme-next-canvas-nest
