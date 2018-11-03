@@ -790,8 +790,8 @@ reading_progress:
 
 # Use velocity to animate everything.
 motion:
-  enable: false
-  async: false
+  enable: true
+  async: true
   transition:
     # Transition variants:
     # fadeIn | fadeOut | flipXIn | flipXOut | flipYIn | flipYOut | flipBounceXIn | flipBounceXOut | flipBounceYIn | flipBounceYOut
@@ -823,7 +823,7 @@ lazyload: false
 
 # Progress bar in the top during page loading.
 # Dependencies: https://github.com/theme-next/theme-next-pace
-pace: false
+pace: true
 # Themes list:
 #pace-theme-big-counter
 #pace-theme-bounce
@@ -948,12 +948,12 @@ vendors:
   # Internal version: 1.0.2
   # See: https://github.com/HubSpot/pace
   # Example:
-  # pace: //cdn.jsdelivr.net/npm/pace-js@1.0.2/pace.min.js
+  pace: //cdn.jsdelivr.net/npm/pace-js@1.0.2/pace.min.js
   # pace: //cdnjs.cloudflare.com/ajax/libs/pace/1.0.2/pace.min.js
-  # pace_css: //cdn.jsdelivr.net/npm/pace-js@1.0.2/themes/blue/pace-theme-minimal.css
+  pace_css: //cdn.jsdelivr.net/npm/pace-js@1.0.2/themes/blue/pace-theme-minimal.css
   # pace_css: //cdnjs.cloudflare.com/ajax/libs/pace/1.0.2/themes/blue/pace-theme-minimal.min.css
-  pace:
-  pace_css:
+  # pace:
+  # pace_css:
 
   # Internal version: 1.0.0
   # See: https://github.com/theme-next/theme-next-canvas-nest
